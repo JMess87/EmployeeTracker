@@ -4,6 +4,11 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const cTable = require('console.table');
 
+// connection to the port
+const PORT = process.env.PORT || 3001;
+const app = express();
+
+
 // connection to the database
 const connection = mysql.createConnection({
     host: 'localhost',
@@ -24,7 +29,7 @@ console.table([
         age: 20
     }
 ]);
-
+0
 
 // inquirer questions
 inquirer
@@ -36,3 +41,8 @@ inquirer
             message: 'What would you like to do?',
         },
     ])
+
+// Verification that the app is connected.
+app.listen(PORT, () => {
+    console.log ('Server is running on port 3001')
+});
