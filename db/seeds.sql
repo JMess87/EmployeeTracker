@@ -9,7 +9,7 @@ VALUES ("Engineering"),
        ("Sales");
        
 -- Seed information to populate the role table
-INSERT INTO role (title,salary,department_id)
+INSERT INTO role(title,salary,department_id)
 VALUES ("Accountant", 125000,2),
        ("Accountant Manager", 160000,2),
        ("Lawyer", 190000,3)
