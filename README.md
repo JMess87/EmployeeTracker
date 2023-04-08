@@ -54,3 +54,5 @@ Console Table - https://www.npmjs.com/package/console.table , https://developer.
 mysql2 - https://www.npmjs.com/package/mysql2#installation
 
 inquire with sql - https://stackoverflow.com/questions/64220107/passing-sql-queries-into-inquirer-prompt
+
+intro to sql queries - https://blog.hubspot.com/marketing/sql-tutorial-introduction
